@@ -12,6 +12,6 @@ int main()
 	m = (sec -(3600*h))/60;// 7890-3600/60
 
 	s = (sec -(3600*h)-(m*60)); // 7890-3600-60
-	printf("7890 seconds = %d hours :%.2d minutes :%.2d seconds\n",h,m,s);
+	printf("7890 seconds = %d hours :%d minutes :%d seconds\n",h,m,s);
     return 0;
 }
